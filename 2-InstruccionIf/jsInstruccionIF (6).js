@@ -11,3 +11,6 @@ if (edad <=17 && edad >= 13){
     alert("Es adulto");
 }
 }//FIN DE LA FUNCIÓN
+
+
+//podria haber usado un ir menor re ver eso
