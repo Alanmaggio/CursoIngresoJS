@@ -7,7 +7,7 @@ if (edad <=17 && edad >= 13){
     alert("es adolescente");
 }else if (edad <13){
     alert("es un niño");
-}else if (edad >18){
+}else if (edad >=18){
     alert("Es adulto");
 }
 }//FIN DE LA FUNCIÓN
