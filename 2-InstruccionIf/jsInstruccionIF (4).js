@@ -10,8 +10,8 @@ if (!(edad <13 || edad >17 )){
 alert("Es adolescente");
 }
 //    esta adentro del rango?
-/*if (edad >= 13 && edad <=17){
+if (edad >= 13 && edad <=17){
     alert("es adolescente");
 }
 
-}//FIN DE LA FUNCIÓN
+} //FIN DE LA FUNCIÓN¨
