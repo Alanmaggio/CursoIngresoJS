@@ -7,3 +7,4 @@ function mostrar()
 	alert ("tu numero es "+aleatorio);
 }	
 }//FIN DE LA FUNCIÓN
+//hay q terminarlo
