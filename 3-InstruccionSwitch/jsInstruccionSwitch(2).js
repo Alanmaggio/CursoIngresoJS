@@ -20,11 +20,11 @@ case (mesDelAño = "Enero"):;
     case (mesDelAño = "Octubre"):;
     case (mesDelAño = "Noviembre"):
     case (mesDelAño = "Diciembre"):
-    alert("Ya paamos el frio, ahora calo!!!..");
+    alert("Ya paamos el frio, ahora calor!!!..");
     break;
 }
 
-//alert (mesDelAño);
+//alert (mesDelAño); ????
 
 
 
