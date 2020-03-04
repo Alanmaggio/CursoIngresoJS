@@ -25,17 +25,17 @@ function mostrar()
             marca = prompt("Ingrese una marca");
         }
 
-        peso = prompt("Ingrese el peso (debe estar entre 1 y 100)")
+        peso = prompt("Ingrese el peso (debe estar entre 1 y 100)");
         peso = parseInt(peso);
         while(isNaN(peso)||peso<1 || peso > 100){
-            peso = prompt("Error! Ingrese el peso (debe estar entre 1 y 100)")
+            peso = prompt("Error! Ingrese el peso (debe estar entre 1 y 100)");
             peso = parseInt(peso);
         }
 
-        temperatura = prompt("Ingrese el peso (debe estar entre -30 y 30)")
+        temperatura = prompt("Ingrese la temperatura (debe estar entre -30 y 30)");
         temperatura = parseInt(temperatura);
         while(isNaN(temperatura)||temperatura<-30 || temperatura > 30){
-            temperatura = prompt("Error! Ingrese el peso (debe estar entre -30 y 30)")
+            temperatura = prompt("Error! Ingrese el peso (debe estar entre -30 y 30)");
             temperatura = parseInt(temperatura);
         }
 
@@ -73,7 +73,12 @@ function mostrar()
         promedioPeso = acumuladorPesos / cantidadProductos;
     }
 
-    document.write("")
+    document.write("");
 
 
 }
+/* numero once que hicimos con marina descargado de su git hub
+
+var formadepago=prompt("ingrese una forma de pago");
+formasdepago= formasdepago.tolocalelowercase();
+while(formadepago.tolocalelowercasww() != "efectivo" y formas*/
