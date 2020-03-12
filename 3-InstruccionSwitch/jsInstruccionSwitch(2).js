@@ -2,6 +2,7 @@ function mostrar()
 {
 //tomo la edad  
 var mesDelAño = document.getElementById('mes').value;
+//evaluo los casos
 switch (mesDelAño)
 {
 case (mesDelAño = "Enero"):;
@@ -20,13 +21,7 @@ case (mesDelAño = "Enero"):;
     case (mesDelAño = "Octubre"):;
     case (mesDelAño = "Noviembre"):
     case (mesDelAño = "Diciembre"):
-    alert("Ya paamos el frio, ahora calor!!!..");
+    alert("Ya pasamos el frio, ahora calor!!!..");
     break;
 }
-
-//alert (mesDelAño); ????
-
-
-
-
 }//FIN DE LA FUNCIÓN
