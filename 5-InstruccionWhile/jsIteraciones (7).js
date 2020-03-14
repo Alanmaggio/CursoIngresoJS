@@ -9,7 +9,7 @@ function mostrar() {
 		numero = parseInt(prompt("Ingrese numero"));
 
 	while (isNaN(numero)) {
-		numero = alert("Escribe un numero valido");
+		numero = prompt("Escribe un numero valido");
 
 	}	contador++
 		acumulador = acumulador + numero;
