@@ -5,7 +5,7 @@ function mostrar() {
 	var respuesta = 'si';
 
 
-	while (respuesta == "si") {
+	while (respuesta == true) {
 		numero = parseInt(prompt("Ingrese numero"));
 
 	while (isNaN(numero)) {
@@ -13,8 +13,7 @@ function mostrar() {
 
 	}	contador++
 		acumulador = acumulador + numero;
-		respuesta = prompt("Desea continuar?");
-	}
+	}respuesta = prompt("Desea continuar?");
 	document.getElementById('suma').value = acumulador;
 	document.getElementById('promedio').value = acumulador / contador;
 
